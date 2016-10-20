@@ -37,3 +37,7 @@ grocery_list << "rice"
 sort_list = grocery_list.sort
 
 shoplist(sort_list)
+
+grocery_list.delete "salmon"
+
+puts grocery_list
