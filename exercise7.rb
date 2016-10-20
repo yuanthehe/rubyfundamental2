@@ -6,11 +6,16 @@ students = {
 
 
 students.each do |cohort, numstu|
-  puts "#{cohort} : #{numstu} students"
+  puts "#{cohort} : #{numstu*1.05.to_i} students"
 
 end
 
 
-students [:cohort4] = 43
+students[:cohort4] = 43
 
 puts students.keys
+
+
+students.delete (:cohort2)
+
+puts students
