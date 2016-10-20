@@ -10,6 +10,7 @@ end
 
 grocery_list << "rice"
 
+
 shoplist(grocery_list)
 
 puts "#{grocery_list.length}"
@@ -22,3 +23,17 @@ else
 end
 
 puts grocery_list[1]
+
+def shoplist(list)
+
+ list.each do |item|
+   puts "* #{item}"
+ end
+
+end
+
+grocery_list << "rice"
+
+sort_list = grocery_list.sort
+
+shoplist(sort_list)
