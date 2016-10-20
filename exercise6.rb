@@ -20,3 +20,5 @@ else
   p "You need to pick up bananas"
 
 end
+
+puts grocery_list[1]
